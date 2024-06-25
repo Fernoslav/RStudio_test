@@ -11,5 +11,5 @@ ggplot(data = mtcars, aes(x = factor(cyl), y = l_per_100km)) +
   labs(
     title = "Średnie zużycie paliwa dla różnych liczby cylindrów",
     x = "Liczba cylindrów",
-    y = "Średnie zużycie paliwa (mpg)"
+    y = "Średnie zużycie paliwa (l/100km)"
   )
